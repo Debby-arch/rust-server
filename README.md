@@ -18,11 +18,13 @@ Code Structure:
 
 main.rs: Contains the main entry point and server setup logic.
 Dependencies: std::io, std::net, std::sync, and std::thread.
+
 Limitations:
 
 Basic error handling. Consider implementing more robust error handling for production environments.
 Limited message size. Adjust MSG_SIZE as needed.
 No data validation or security measures. Implement appropriate checks for production use.
+
 Potential Improvements:
 
 Add support for TLS encryption.
