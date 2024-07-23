@@ -45,7 +45,7 @@ loop {
                         let msg = buff.into_iter().take_while(|&x| x != 0).collect::<Vec<_>>();
                         let msg = String::from_utf8(msg).expect("Invalid utf8 message");
 
-                        println!("Received message from {}: {:?}", addr, msg);
+                        println!("Received message from {}: {:?}", msg);
                         tx.send(msg).expect("Failed to send message to rx");
                     },
                     Err(ref err) if err.kind() == ErrorKind::WouldBlock => (),
