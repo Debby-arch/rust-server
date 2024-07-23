@@ -1,0 +1,45 @@
+# Rust specific
+/target/
+/.cargo/
+/.rust-toolchain
+
+# IDEs and editors
+/.idea/
+/.vscode/
+*.sublime-workspace
+
+# Build and packaging
+/pkg/
+/dist/
+/build/
+/out/
+*.tar.gz
+*.tgz
+*.tar.xz
+*.tar.bz2
+*.zip
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.dll.a
+*.so.*
+*.dylib.*
+
+# Documentation
+/doc/
+/docs/
+*.md
+*.ron
+*.txt
+
+# Misc
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
